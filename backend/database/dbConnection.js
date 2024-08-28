@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 export const dbConnection = () => {
 
-const mongoURI = "mongodb+srv://tanvigupta836:GXIF7Ni2pP7bJZHn@cluster0.iieny2z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = "mongodb+srv://tanvigupta836:GXIF7Ni2pP7bJZHn@cluster0.iieny2z.mongodb.net/food";
 
 mongoose.connect(mongoURI, {})
     .then(() => {

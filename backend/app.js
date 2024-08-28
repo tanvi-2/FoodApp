@@ -6,7 +6,7 @@ import { errorMiddleware } from "./middlewares/error.js";
 import reservationRouter from "./routes/reservationRoute.js";
 import { dbConnection } from "./database/dbConnection.js";
 import send_reservation from "./controller/reservation.js";
-process.env.Frontend_URL="http://localhost:5173/";
+
 const app = express();
 dotenv.config({ path: "./env" });
 
